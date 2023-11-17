@@ -2,16 +2,16 @@ html {
   height: 100%;
   width: 100%;
   padding: 0; margin: 0;
-  cursor: url("img/blockCursor.png"), auto;
+  /* cursor: url("img/blockCursor.png"), auto; */
 }
 
 body {
   max-width: 100%;
   max-height: 0%;
-  background-color:#1F2229;
+  background-color:#5c336d;
   font-family: monaco, "Courier New";
-  color:#774716;
-  cursor: url("img/blockCursor.png"), auto;
+  color:#FFFFFF;
+  /* cursor: url("img/blockCursor.png"), auto; */
 }
 
 a {
@@ -25,13 +25,29 @@ p {
 }
 
 a:hover {
-  background: #C6DEFC;
-  color: #000000;
-  cursor: url("img/blockCursor.png"), auto;
+  /* background: #C6DEFC; */
+  /* color: #000000; */
+  /* cursor: url("img/blockCursor.png"), auto; */
 }
 
-::selection {background: #C6DEFC; color: #000000}
-
-li:hover {
-  display: inline-block;
+ul {
+  display:inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid white; */
 }
+
+/* ul li {border: 1px solid white;} */
+
+li { float: left; }
+li a { display: inline-block; padding: 1vw; color: #a9e244;}
+li a:hover { color: #76ac17}
+
+
+::selection {background: #492956; color: #B1E764}
+
+
+/* li:hover { */
+/*   display: inline-block; */
+/* } */
